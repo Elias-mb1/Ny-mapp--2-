@@ -1,0 +1,11 @@
+/* Lägg till nödvändig CSS för modalfönstret här */
+#accessibleModal {
+  display: none;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+}

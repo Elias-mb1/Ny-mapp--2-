@@ -1,0 +1,10 @@
+/* Styling för att gömma menyn från början */
+#menuContent {
+    display: none;
+  }
+  
+  /* Styling för att göra menyn synlig när den är öppen */
+  #menuContent[aria-hidden="false"] {
+    display: block;
+  }
+  

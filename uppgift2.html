@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tillgängligt modalfönster</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, quam
+      enim ipsa obcaecati exercitationem cumque earum tempora voluptas numquam
+      optio ad odit corporis et facilis dolores aspernatur? Officia, optio
+      earum. Aperiam eaque excepturi esse dolor, repellendus nobis vero beatae
+      iure obcaecati aliquam. Iste quam voluptatibus adipisci saepe minus,
+      perferendis recusandae animi culpa ipsum? Dolore, quos? Deleniti ipsa
+      aliquid dignissimos illo?
+    </p>
+    <button id="openModalBtn" onclick="openModal()">Open</button>
+    <dialog
+      class="modal"
+      id="modal"
+      role="dialog"
+      aria-labelledby="modalTitle"
+      aria-modal="true"
+    >
+      <h2 id="modalTitle">Exempel på modalfönster</h2>
+      <p>Här är lite text i modalfönstret.</p>
+      <button id="closeModalBtn" onclick="closeModal()">Close</button>
+    </dialog>
+    /*dialog har en inbyggds aria-modal*/
+
+    <script src="test.js"></script>
+  </body>
+</html>
